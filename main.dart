@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdemo/constrained.dart';
-import 'package:flutterdemo/expanded.dart';
-import 'package:flutterdemo/flex.dart';
+//import 'package:flutterdemo/constrained.dart';
+//import 'package:flutterdemo/drawer.dart';
+//import 'package:flutterdemo/expanded.dart';
+//import 'package:flutterdemo/flex.dart';
+//import 'package:flutterdemo/flex2.dart';
+//import 'package:flutterdemo/gesture.dart';
 //import 'package:flutterdemo/cardwidget.dart';
 //import 'package:flutterdemo/gridtile.dart';
 //import 'package:flutterdemo/gridtileextend.dart';
-import 'package:flutterdemo/listseparted.dart';
-import 'package:flutterdemo/stack.dart';
+//import 'package:flutterdemo/listseparted.dart';
+import 'package:flutterdemo/popup.dart';
+//import 'package:flutterdemo/stack.dart';
 //import 'package:flutterdemo/listtile.dart';
 //import 'package:flutterdemo/listtileapp.dart';
 //import 'package:flutterdemo/buttonwidget.dart';
@@ -34,7 +38,7 @@ class MyApp extends StatelessWidget{
       theme: 
       ThemeData(colorScheme:  ColorScheme.fromSeed(seedColor: Colors.blue)),
       
-      home:FlexWid (),
+      home:PopUp (),
     );
   }
 
